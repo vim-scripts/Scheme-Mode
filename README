@@ -1,0 +1,20 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1918
+
+" This is a simple fileplugin supposed to help you write Scheme code fast.
+" Comes with shortcuts for usual patterns such as `if`, `cond`, `case`, as
+" well as `let`s (normal, letrec and named let), `syntax-rules`, and eventually
+" a header generator and shortcuts to inser (print) lilke statements.
+" Since many of those patterns have placeholders for code, `f and `s tags are
+" mapped to what can be thought of as 1st place and 2nd place. For example, in
+" an `if`, first place is the #t branch, and second place is the #f branch
+"
+" Little help with motions is given too. Mapped <C-l> and <C-h> to the next and
+" previous Sexp, in depth parsing order.
+"
+" You are more than suggested to define the bindings as you want them.
+" I chose <Leader>sX so that the "s" reminds you scheme, though is slows down
+" typing quite a bit. Moreover, you might not want a 3 keyed shortcut to start a
+" quoted list...
+"
+" Also comes with a function that closes all open brackets.
+
